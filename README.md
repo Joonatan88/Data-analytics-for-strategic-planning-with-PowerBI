@@ -61,9 +61,9 @@ Competition:
 - Make full market analysis on these locations: Competitors, potential business partners, short term forecasting
 
 ## 📁 Repository Structure
-- 'Data'/: Cleaned data files and sources
+- `Data/`: Cleaned data files and sources
 - `analysis and methodology/`: Explanation of actions and solutions - Data model, DAX querys, visuals
-- 'PowerBI Dashboard'/: Final PowerBI product and strategic solution
+- `PowerBI Dashboard/`: Final PowerBI product and strategic solution
 
 
 

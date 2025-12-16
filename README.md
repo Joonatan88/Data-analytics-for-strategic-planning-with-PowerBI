@@ -1,4 +1,4 @@
-# Data Consulting Project: Healthcare market expansion strategy
+<img width="1203" height="677" alt="image" src="https://github.com/user-attachments/assets/701849a8-bed9-4837-92a5-169b85241ff9" /># Data Consulting Project: Healthcare market expansion strategy
 
 ## Project overview
 This project simulates an analytics consulting assignment for an (imaginary) private healthcare company exploring opportunities to invest their business in smaller Finnish counties. The objective was to identify counties with **high potential demand** and **low competitive intensity** to support data-driven investment decisions.
@@ -36,9 +36,16 @@ Competition:
 4. Analyze the data based on identified business objectives and information needs
 5. Build and provide PowerBI dashboard solution to support the customer in strategic decision making
 
-## Preview of dahsboard 
-High potential countys: <img width="1504" height="653" alt="image" src="https://github.com/user-attachments/assets/930f8a24-cc37-41ef-93db-47d590d342e2" />
-
+## Preview of dahsboard (Full dashboard structure on PowerBI dashboard section)
+### Grouping countys based on potential: 
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/d9074a06-36c2-4866-ada6-10d11ef11e9c" />
+### Geographical location on countys with highest potential:
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/38dbe3ba-8f4d-4dde-814b-fc637dce2b43" />
+### Predicted change in population: 
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/702f0c63-c49c-4eb4-bc4e-b291582c3447" />
+### Potential countys to invest in: 
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/b426d9af-47c9-4345-8836-bb206af7b6a1" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/f7d12ec5-5bac-4ed5-803a-8fadc19c5861" />
 
 ## 🔍 Key Insights
 - Counties with high median income and large population are centered around urban areas where the competition is heavy

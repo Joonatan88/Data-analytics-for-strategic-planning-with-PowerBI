@@ -4,7 +4,7 @@
 
 ## Structure of project
 1. Identify information needs of our client and understand the business question
-2. Data gathering and preprocessing
+2. Data gathering, preprocessing and data model
 3. Data-analysis with PowerBI
 4. Building visuals for informed decision making with PowerBi
 

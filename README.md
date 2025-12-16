@@ -25,10 +25,16 @@ Competition:
 - Power BI (Dashboards, data model, deeper analysis)
 - Excel (Data preprocessing)
 
+## Data 
+- Open demographical data on counties from Finland 2021-2023:https://pxdata.stat.fi/PxWeb/pxweb/fi/Postinumeroalueittainen_avoin_tieto/Postinumeroalueittainen_avoin_tieto__uusin/paavo_pxt_12f8.px/
+- Open prediction of changes in demographical data on counties from Finland 2035: https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__vaenn/statfin_vaenn_pxt_14wx.px/
+
 ## Workflow of the project
 1. Understand the information needs and business environment of the customer
 2. Extract data for our analysis
 3. Clean and prepare data for PowerBI
 4. Analyze the data based on identified business objectives and information needs
 5. Build and provide PowerBI dashboard solution to support the customer in strategic decision making
+
+
 

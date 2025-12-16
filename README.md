@@ -17,6 +17,7 @@ Smaller counties in Finland can present untapped opportunities for private healt
 Private healthcare providers:
 - Big part of revenue comes from occupational health services
 - Clientele is usually middle aged and employed people
+- Good indicators for demand: High income and high avg-age
 
 Competition:
 - Finland has many private healthcare companies so the competition is high

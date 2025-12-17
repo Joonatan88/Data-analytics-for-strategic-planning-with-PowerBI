@@ -120,7 +120,7 @@
 ### 4. Results
 - Based on analysis in part 3 I identified 2 possible counties that formed a market gap that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities. For the 2 targets chosen I build a visual to showcase their properties.
 
-#### 4.1 Naantali
+## 4.1 Naantali
 
 <img width="1194" height="677" alt="image" src="https://github.com/user-attachments/assets/9edc2331-76e8-4cb8-a228-e9604091c968" />
 
@@ -133,7 +133,7 @@
 
 <img width="466" height="662" alt="image" src="https://github.com/user-attachments/assets/9d36d82d-f943-43f2-884e-575c0ff6d276" />
 
-#### 4.2 Riihimäki area
+## 4.2 Riihimäki area
 
 **Metrics of Riihimäki area**
 <img width="1218" height="681" alt="image" src="https://github.com/user-attachments/assets/c056a16f-5c44-4b30-bbd1-9dbc3d48d145" />

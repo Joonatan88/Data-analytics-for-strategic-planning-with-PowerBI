@@ -37,7 +37,7 @@ Competition:
 4. Analyze the data based on identified business objectives and information needs
 5. Build and provide PowerBI dashboard solution to support the customer in strategic decision making
 
-## Preview of dahsboard
+## Preview of dahsboard (Full analysis and decision making process in: **Analysis and methodology** section)
 
 Full dashboard: https://app.powerbi.com/view?r=eyJrIjoiMzkwYWRmMTEtNTQxNC00MjEyLTg0ZGMtMDUzODRiZTI2NTljIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9
 

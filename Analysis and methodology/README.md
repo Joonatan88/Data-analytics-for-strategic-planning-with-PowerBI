@@ -46,6 +46,12 @@
   3: Population
   4: Different age groups
 
+#### Preprocessing of data
+- From the GUI of tilastokeskus I uploaded the relevant data to excel. In excel I checked for missing values and formatted the variables correct type. Since the tilastokeskus data is high in quality, there wasn't a lot to preprocess.
+- After that I imported the datasets to PowerBI. In PowerBI I connected the data tables on **county** variable. The resulted data model:
 
+  <img width="701" height="407" alt="image" src="https://github.com/user-attachments/assets/20bfb107-8fc6-4601-adf7-28f07e4f1afd" />
+
+  
 
 

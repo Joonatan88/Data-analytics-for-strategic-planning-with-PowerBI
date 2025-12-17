@@ -55,6 +55,8 @@
 - This data model allowed me to compare the **future state of counties** with different metrics that were calculated on the **current state of counties**.
 
 ### 3. Data-analyis with PowerBI
+
+#### 3.1 Splitting counties to groups
 - My end goal was to find possible counties where my client should invest in. Since my dataset had 309 counties I decided to do a pruning approach, which would allow me to mark off irrelevant counties and do deeper analysis on the most potential counties.
 - For this I started my analysis by splitting counties to different groups with a DAX query:
 
@@ -64,8 +66,19 @@
 
 **Group 3: Counties with high avg-age and low income** 
 
-- The splitting factor for age was avg-age over or under 45. Splitting factor for median-income was over or under 25000. The DAX query I used also pruned out counties with under 7000 in population, since demand in those counties isn't enough for good business. (**NOTE** I know this approach is a bit naive, since I used arbitrary values as a splitting factor, but for this simulated task lets allow it...)
+- The splitting factor for age was avg-age over or under 45. Splitting factor for median-income was over or under 25000. The DAX query I used also pruned out counties with under 7000 in population, since demand in those counties isn't enough for good business.
+
+-(**NOTE** I know this approach is a bit naive, since I used arbitrary values as a splitting factor, but for this simulated task lets allow it...)
+
 - Full DAX query:
 
   <img width="1200" height="213" alt="image" src="https://github.com/user-attachments/assets/30bf39f2-cc9d-414c-9ecb-4a4f058983c4" />
+
+#### 3.2 Producing a tooltip
+- Analysing the counties based on relevant metrics from just the tables proved to be irritating, I decided to make a tooltip that I could use on the visuals to help my compare the counties.
+- In this tooltip I included relevant metrics for comparison between counties:
+
+  <img width="525" height="279" alt="image" src="https://github.com/user-attachments/assets/ee6c12e2-4a73-47d2-a56f-4625acd40cba" />
+
+- This tooltip was then used during the whole analysis process
 

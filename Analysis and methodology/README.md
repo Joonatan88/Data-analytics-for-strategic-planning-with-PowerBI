@@ -7,9 +7,11 @@
 2. Data gathering, preprocessing and data model
 3. Data-analysis and visuals with PowerBI
 4. Results
+5. Conclusion
 
 ## 1. Information needs and business understanding
 - Client wanted to find clear market gaps in Finnish counties to invest in. Market gap was defined as: Counties where competition is low and demand for private healthcare service is high. For a prosperous investement the future of the county is also to be looked in.
+- Client wanted to understand the demographics of Finnish counties 
 - Private healthcare can be expensive, which means we must target counties with higher income. It is also known that a need for healthcare increases with ageing.
 - Big part of private healthcares business comes from occupational health contracts with other businesses.
 - From these information needs I identified these spots to be derived from data:
@@ -122,6 +124,7 @@
 
 ## 4.1 Naantali
 
+**County of Naantali**
 <img width="1194" height="677" alt="image" src="https://github.com/user-attachments/assets/9edc2331-76e8-4cb8-a228-e9604091c968" />
 
 - First target is the county of Naantali, where the place of business would be in the city of Naantali.
@@ -131,6 +134,7 @@
 - 4.22% of Naantalis population is working in healthacre or social services. I used this visual to indicate possible supply for workforce for our client, and possible competition in the area. From this metric alone it's hard to make informed summary about the competetive situtation in Naantali.
 - Naantali is located near city of Turku, that has lots of private healthcare businesses which could produce competition for my client. But when we look at Naantalis position geographically we can see that most of the county is in the archipelago and further away from Turku. As a place of business the city of Naantali gives and edge in this area, since its in the crossing to the archipelago, and near 2 other counties that had high potential: Masku and Raisio. With right placement of business, Naantali would gain the benefit of easy access to the healthcare center when compared to Turku, thus bringing in customers from around Naantali county that would otherwise go to Turku for their healthcare.
 
+**Geographical location of Naantali compared to nearby counties**
 <img width="466" height="662" alt="image" src="https://github.com/user-attachments/assets/9d36d82d-f943-43f2-884e-575c0ff6d276" />
 
 ## 4.2 Riihimäki area
@@ -147,3 +151,13 @@
 **Metrics of Riihimäki county**
 <img width="1209" height="683" alt="image" src="https://github.com/user-attachments/assets/eca5bb7a-c68c-4317-96bf-4bf824ce745d" />
 
+## 5. Conclusion
+
+#### End product
+- In the end I managed to map the demographic field of Finnish counties current state and future prediction for my clients usage
+- I provided 2 clear targets that could be potential for investment
+
+#### Improvements and notes
+- The datasets that were used limited the scope of this project. The analysis didn't go deeper into the full business environments in the countys. This is why inevstment decisions can't be made solely on my findings. 
+- This project could be advanced to making full market analysis and mapping of business environment for better understanding and informed decision making.
+- This project revolved mostly around teaching myself different techniques and methods in PowerBI, but also I got to use my problem solving and analytical skills for providing real value to an (imaginary) customer

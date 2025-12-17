@@ -6,6 +6,7 @@
 1. Identify information needs of our client and understand the business question
 2. Data gathering, preprocessing and data model
 3. Data-analysis and visuals with PowerBI
+4. Results
 
 ### 1. Information needs and business understanding
 - Client wanted to find clear market gaps in Finnish counties to invest in. Market gap was defined as: Counties where competition is low and demand for private healthcare service is high. For a prosperous investement the future of the county is also to be looked in.
@@ -67,7 +68,7 @@
 
 - The splitting factor for age was avg-age over or under 45. Splitting factor for median-income was over or under 25000. The DAX query I used also pruned out counties with under 7000 in population, since demand in those counties isn't enough for good business.
 
--(**NOTE** I know this approach is a bit naive, since I used arbitrary values as a splitting factor, but for this simulated task lets allow it...)
+(**NOTE** I know this approach is a bit naive, since I used arbitrary values as a splitting factor, but for this simulated task lets allow it...)
 
 - Full DAX query:
 
@@ -79,9 +80,9 @@
 
   <img width="525" height="279" alt="image" src="https://github.com/user-attachments/assets/ee6c12e2-4a73-47d2-a56f-4625acd40cba" />
 
-- This tooltip was then used during the whole analysis process
+- This tooltip was then used during the whole analysis process in all different visuals I created.
 
-### 3.3 Visualizing the groups
+#### 3.3 Visualizing the groups
 - From my grouping measure **potentiaali** that I made in part 3.1, I created a visual that showcased each group in a scatterplot.
 - The scatterplot compared avg-age of counties on their median income.
 
@@ -93,7 +94,7 @@
 
 - With these tools I created, I looked into the counties on the scatterplot. I could then conclude that the counties in the group **High avg-age, low median income** weren't potential for investing in, and I pruned them out of the analysis.
 
-### 3.4 Geographical analysis
+#### 3.4 Geographical analysis
 - After previous pruning I was left with the 2 relevant groups of counties: **1: High avg-age, high median income** and **2: Low avg-age, high median income**.
 - I then build a visual that would allow me to inspect these groups on their geographical locations. This would allow me to see wether the counties were located near areas that would provide too much competition.
 - I used the **azure maps** visual for this:
@@ -102,8 +103,24 @@
 
 - From this visual I could zoom in the different parts of Finland and analyze the geographical locations effect on the potential of good investment. I found that all the counties in the group **2: Low avg-age, high median income** were located around the largest Finnish cities. The competition would be too big for these counties, thus not enabling a market gap. This led me to prune this group out of further analysis.
   
+#### 3.5 Future outlook of counties with high avg-age and high median income
+- I was left with the most potential group for having a county with market gap, **Group 1: High avg-age, high median income**. This group had 39 counties, for which I wanted to analyze their future outlook of population change from my future state dataset.
+- I used this DAX query to find out the percentage change in population predicted for 2035 when compared to 2023:
+
+  <img width="500" height="137" alt="image" src="https://github.com/user-attachments/assets/7f5a351a-564d-4160-ba3e-82e464dbeaba" />
+
+- I visualized the population change in a bar plot using the measure from DAX query:
+
+  <img width="1214" height="682" alt="image" src="https://github.com/user-attachments/assets/ca14365f-25f2-414b-9603-b0e4e86085ab" />
+
+- This visual helped me to analyze the future potential of the counties in terms of possible demand. The counties having high population loss predicted aren't looking good in sense of investment. On the other hand counties having population growth predicted seem more promising.
+- From the visual we can see that the predicted percentage changes aren't that big to completely make decisions based on them. But they do give an outlook on which way the counties future is going in sense of population change. This helped me to find 2 potential targets for investment.
 
 
+### 4. Results
+- Based on analysis in part 3 I identified 2 possible counties that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities.
+
+#### 4.1 Naantali
 
 
 

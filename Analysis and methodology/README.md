@@ -118,9 +118,19 @@
 
 
 ### 4. Results
-- Based on analysis in part 3 I identified 2 possible counties that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities.
+- Based on analysis in part 3 I identified 2 possible counties that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities. For the 2 targets chosen I build a visual to showcase their properties.
 
 #### 4.1 Naantali
 
+<img width="1194" height="677" alt="image" src="https://github.com/user-attachments/assets/9edc2331-76e8-4cb8-a228-e9604091c968" />
 
+- First target is the county of Naantali, where the place of business would be in the city of Naantali.
+- As a county, Naantali has huge potential for investment. The current numbers in sense of median income and average age of population is very good. The median income was in the highest 10% of all Finnish counties in 2023.
+- What lacks in Naantali in 2023 is the population amount, and the amount of companies in the county, the two metrics that indicate possible demand in the county. But when looking into the population change metric (3.5), we can see that the predicted population change for 2035 is +9.93%. This suggests higher potential demand in the future.
+- The demographic distibution of Naantalis population is also good. About 80% of naantalis population either pensioner or in the workforce, which is the target group for our client.
+- 4.22% of Naantalis population is working in healthacre or social services. I used this visual to indicate possible supply for workforce for our client, and possible competition in the area. From this metric alone it's hard to make informed summary about the competetive situtation in Naantali.
+- Naantali is located near city of Turku, that has lots of private healthcare businesses which could produce competition for my client. But when we look at Naantalis position geographically we can see that most of the county is in the archipelago and further away from Turku. As a place of business the city of Naantali gives and edge in this area, since its in the crossing to the archipelago, and near 2 other counties that had high potential: Masku and Raisio. With right placement of business, Naantali would gain the benefit of easy access to the healthcare center when compared to Turku, thus bringing in customers from around Naantali county that would otherwise go to Turku for their healthcare.
 
+<img width="466" height="662" alt="image" src="https://github.com/user-attachments/assets/9d36d82d-f943-43f2-884e-575c0ff6d276" />
+
+#### 4.2 Riihimäki area

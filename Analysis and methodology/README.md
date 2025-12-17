@@ -21,5 +21,31 @@
   **3. Counties population movement in the future**
   
   **4. Competition in- or around the counties**
-  
+
+### 2. Data gathering, preprocessing and data model
+#### Current state data
+- I used open demographic data from 2021-2023 Finnish counties (https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html) from tilastokeskus, as my analysis for counties current state. Tilastokeskus didn't have data for 2024 or 2025 yet.
+- This dataset had lots of variables on county level to do analysis based on the information needs. The relevant variables that I used:
+
+  1: County
+  2: Population
+  3: Amount of companies
+  4: Average age of population
+  5: Median income
+  6: Workforce
+  7: Unemployment
+  8: Workforce in healthcare and social services
+  9: Year
+
+#### Future state data
+- From tilastokeskus I used the prediction of population dataset for the year 2035, as the analysis for future state of counties.
+- The variables for this dataset:
+
+  1: County
+  2: Year
+  3: Population
+  4: Different age groups
+
+
+
 

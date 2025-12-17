@@ -1,7 +1,7 @@
 # Healthcare Market Expansion Strategy – Finland
 
 ## Project overview
-This project simulates an analytics consulting assignment for an (imaginary) private healthcare company exploring opportunities to invest their business in smaller Finnish counties. The objective was to identify counties with **high potential demand** and **low competitive intensity** to support data-driven investment decisions.
+This project simulates an analytics consulting assignment for an (imaginary) private healthcare company exploring opportunities to invest their business in smaller Finnish counties. The objective was to identify counties with **high potential demand** and **low competitive intensity** to support data-driven investment decisions. Analysis was based on open demographic data from: https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html
 
 ## 🎯 Business objectives
 - Assess regional healthcare demand accross Finnish counties

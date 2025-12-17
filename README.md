@@ -37,7 +37,10 @@ Competition:
 4. Analyze the data based on identified business objectives and information needs
 5. Build and provide PowerBI dashboard solution to support the customer in strategic decision making
 
-## Preview of dahsboard (Full dashboard structure on PowerBI dashboard section)
+## Preview of dahsboard
+
+Full dashboard: https://app.powerbi.com/view?r=eyJrIjoiMzkwYWRmMTEtNTQxNC00MjEyLTg0ZGMtMDUzODRiZTI2NTljIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9
+
 ### Grouping countys based on potential: 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/d9074a06-36c2-4866-ada6-10d11ef11e9c" />
 

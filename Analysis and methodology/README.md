@@ -13,8 +13,8 @@
 - Private healthcare can be expensive, which means we must target counties with higher income. It is also known that a need for healthcare increases with ageing.
 - Big part of private healthcares business comes from occupational health contracts with other businesses.
 - From these information needs I identified these spots to be derived from data:
-  1. Counties with high avg-age and high median income
-  2. Factors that effect in demand: Population, demography of population, amount of businesses in the area
-  3. Counties population movement in the future
-  4. Competition in- or around the counties
+  *1. Counties with high avg-age and high median income*
+  *2. Factors that effect in demand: Population, demography of population, amount of businesses in the area*
+  *3. Counties population movement in the future*
+  *4. Competition in- or around the counties*
 

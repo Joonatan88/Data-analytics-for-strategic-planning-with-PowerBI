@@ -154,10 +154,10 @@
 ## 5. Conclusion
 
 #### End product
-- In the end I managed to map the demographic field of Finnish counties current state and future prediction for my clients usage
-- I provided 2 clear targets that could be potential for investment
+- In the end I managed to map the demographic field of Finnish counties current state and future prediction for my clients usage.
+- I provided 2 clear targets that could be potential for investment.
 
 #### Improvements and notes
 - The datasets that were used limited the scope of this project. The analysis didn't go deeper into the full business environments in the countys. This is why inevstment decisions can't be made solely on my findings. 
 - This project could be advanced to making full market analysis and mapping of business environment for better understanding and informed decision making.
-- This project revolved mostly around teaching myself different techniques and methods in PowerBI, but also I got to use my problem solving and analytical skills for providing real value to an (imaginary) customer
+- This project revolved mostly around teaching myself different techniques and methods in PowerBI, but also I got to use my problem solving and analytical skills for providing real value to an (imaginary) customer.

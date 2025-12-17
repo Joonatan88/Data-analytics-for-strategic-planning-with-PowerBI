@@ -1,4 +1,4 @@
-# Workflow of the project, Data model, DAX querys, visuals
+# Methodology and analysis used in the project
 
 ## Here we do a deeper dive in the full workflow of the project, decisions made and techniques used
 

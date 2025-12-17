@@ -118,7 +118,7 @@
 
 
 ### 4. Results
-- Based on analysis in part 3 I identified 2 possible counties that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities. For the 2 targets chosen I build a visual to showcase their properties.
+- Based on analysis in part 3 I identified 2 possible counties that formed a market gap that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities. For the 2 targets chosen I build a visual to showcase their properties.
 
 #### 4.1 Naantali
 
@@ -134,3 +134,16 @@
 <img width="466" height="662" alt="image" src="https://github.com/user-attachments/assets/9d36d82d-f943-43f2-884e-575c0ff6d276" />
 
 #### 4.2 Riihimäki area
+
+**Metrics of Riihimäki area**
+<img width="1218" height="681" alt="image" src="https://github.com/user-attachments/assets/c056a16f-5c44-4b30-bbd1-9dbc3d48d145" />
+
+- Second target is the Riihimäki area, which consists of counties Riihimäki, Janakkala, Hausjärvi and Loppi. All these counties were in the **Group 1: High avg-age, high median income**. The actual place of business would be created in the city of Riihimäki, in the heart of the Riihimäki area.
+- The whole area has good population size, avg-age and median income. County of Riihimäki is the largest of these counties, with almost half of the population from the area being from Riihimäki county. 
+- Demographic distribution in 2023 is also solid, with just under 80% of population being in the clients target group.
+- The negative side of the Riihimäki area is that all the counties have predicted population loss for year 2035. But on the other hand the percentages are relatively small, and in Riihimäki county the population change is almost 0%.
+- Other negative thing is that the cities of Hyvinkää and Hämeenlinna surround the Riihimäki. Those cities provide competition for possible investment in Riihimäki. But the city of Riihimäki can be accessed easier from the surrounded counties since Riihimäki is in crossroads of two bigger roads.
+
+**Metrics of Riihimäki county**
+<img width="1209" height="683" alt="image" src="https://github.com/user-attachments/assets/eca5bb7a-c68c-4317-96bf-4bf824ce745d" />
+

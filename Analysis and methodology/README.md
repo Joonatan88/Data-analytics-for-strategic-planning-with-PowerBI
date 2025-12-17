@@ -58,14 +58,13 @@
 - My end goal was to find possible counties where my client should invest in. Since my dataset had 309 counties I decided to do a pruning approach, which would allow me to mark off irrelevant counties and do deeper analysis on the most potential counties.
 - For this I started my analysis by splitting counties to different groups with a DAX query:
 
-** Group 1: Counties with high avg-age and high median income ** 
+**Group 1: Counties with high avg-age and high median income** 
 
-** Group 2: Counties with low avg-age and high median income ** 
+**Group 2: Counties with low avg-age and high median income** 
 
-** Group 3: Counties with high avg-age and low income ** 
+**Group 3: Counties with high avg-age and low income** 
 
-- The splitting factor for age was avg-age over or under 45. Splitting factor for median-income was over or under 25000. The DAX query I used also pruned out counties with under 7000 in population, since demand in those counties isn't enough for good business.
-
+- The splitting factor for age was avg-age over or under 45. Splitting factor for median-income was over or under 25000. The DAX query I used also pruned out counties with under 7000 in population, since demand in those counties isn't enough for good business. (**NOTE** I know this approach is a bit naive, since I used arbitrary values as a splitting factor, but for this simulated task lets allow it...)
 - Full DAX query:
 
   <img width="1200" height="213" alt="image" src="https://github.com/user-attachments/assets/30bf39f2-cc9d-414c-9ecb-4a4f058983c4" />

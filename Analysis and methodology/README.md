@@ -2,11 +2,10 @@
 
 ## Here we do a deeper dive in the full workflow of the project, decisions made and techniques used
 
-## Structure of project
+## My workflow
 1. Identify information needs of our client and understand the business question
 2. Data gathering, preprocessing and data model
-3. Data-analysis with PowerBI
-4. Building visuals for informed decision making with PowerBi
+3. Data-analysis and visuals with PowerBI
 
 ### 1. Information needs and business understanding
 - Client wanted to find clear market gaps in Finnish counties to invest in. Market gap was defined as: Counties where competition is low and demand for private healthcare service is high. For a prosperous investement the future of the county is also to be looked in.
@@ -75,10 +74,36 @@
   <img width="1200" height="213" alt="image" src="https://github.com/user-attachments/assets/30bf39f2-cc9d-414c-9ecb-4a4f058983c4" />
 
 #### 3.2 Producing a tooltip
-- Analysing the counties based on relevant metrics from just the tables proved to be irritating, I decided to make a tooltip that I could use on the visuals to help my compare the counties.
+- Analysing the counties based on relevant metrics from just the tables proved to be irritating. I decided to make a tooltip that I could use on the visuals to help my compare the counties.
 - In this tooltip I included relevant metrics for comparison between counties:
 
   <img width="525" height="279" alt="image" src="https://github.com/user-attachments/assets/ee6c12e2-4a73-47d2-a56f-4625acd40cba" />
 
 - This tooltip was then used during the whole analysis process
+
+### 3.3 Visualizing the groups
+- From my grouping measure **potentiaali** that I made in part 3.1, I created a visual that showcased each group in a scatterplot.
+- The scatterplot compared avg-age of counties on their median income.
+
+  <img width="1207" height="681" alt="image" src="https://github.com/user-attachments/assets/17c656e0-7995-4358-8c41-f1c728b29820" />
+
+- Since the plot was very crowded, I coulnd't include any markers that would identify counties by name. This is why I used the tooltip created in 3.2, to look into the counties relevant metrics.
+
+  <img width="1210" height="698" alt="image" src="https://github.com/user-attachments/assets/fff8d29f-d812-4473-aa16-a959993295b6" />
+
+- With these tools I created, I looked into the counties on the scatterplot. I could then conclude that the counties in the group **High avg-age, low median income** weren't potential for investing in, and I pruned them out of the analysis.
+
+### 3.4 Geographical analysis
+- After previous pruning I was left with the 2 relevant groups of counties: **1: High avg-age, high median income** and **2: Low avg-age, high median income**.
+- I then build a visual that would allow me to inspect these groups on their geographical locations. This would allow me to see wether the counties were located near areas that would provide too much competition.
+- I used the **azure maps** visual for this:
+
+  <img width="1204" height="675" alt="image" src="https://github.com/user-attachments/assets/1a8505ab-89a5-4e2a-8579-106620c122a2" />
+
+- From this visual I could zoom in the different parts of Finland and analyze the geographical locations effect on the potential of good investment. I found that all the counties in the group **2: Low avg-age, high median income** were located around the largest Finnish cities. The competition would be too big for these counties, thus not enabling a market gap. This led me to prune this group out of further analysis.
+  
+
+
+
+
 

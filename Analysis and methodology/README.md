@@ -23,7 +23,7 @@
   **4. Competition in- or around the counties**
 
 ### 2. Data gathering, preprocessing and data model
-#### Current state data
+#### 2.1 Current state data
 - I used open demographic data from 2021-2023 Finnish counties (https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html) from tilastokeskus, as my analysis for counties current state. Tilastokeskus didn't have data for 2024 or 2025 yet.
 - This dataset had lots of variables on county level to do analysis based on the information needs. The relevant variables that I used:
 
@@ -37,7 +37,7 @@
   8: Workforce in healthcare and social services
   9: Year
 
-#### Future state data
+#### 2.2 Future state data
 - From tilastokeskus I used the prediction of population dataset for the year 2035, as the analysis for future state of counties.
 - The variables for this dataset:
 
@@ -46,7 +46,7 @@
   3: Population
   4: Different age groups
 
-#### Preprocessing of data
+#### 2.3 Preprocessing of data
 - From the GUI of tilastokeskus I uploaded the relevant data to excel. In excel I checked for missing values and formatted the variables to correct type. Since the tilastokeskus data is high in quality, there wasn't a lot to preprocess.
 - After that I imported the datasets to PowerBI. In PowerBI I connected the data tables on **county** variable. The resulted data model:
 

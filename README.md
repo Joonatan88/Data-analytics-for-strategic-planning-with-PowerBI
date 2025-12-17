@@ -1,7 +1,7 @@
 # Healthcare Market Expansion Strategy – Finland
 
 ## Project overview
-This project simulates an analytics consulting assignment for an (imaginary) private healthcare company exploring opportunities to invest their business in smaller Finnish counties. The objective was to identify counties with **high potential demand** and **low competitive intensity** to support data-driven investment decisions. Analysis was based on open demographic data from: https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html
+This project simulates an analytics consulting assignment for an (imaginary) private healthcare company exploring opportunities to invest their business in smaller Finnish counties. The objective was to identify market gaps in Finnish counties, AKA counties with **high potential demand** and **low competitive intensity** to support data-driven investment decisions. Analysis was based on open demographic data from: https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html
 
 ## 🎯 Business objectives
 - Assess regional healthcare demand accross Finnish counties
@@ -63,8 +63,7 @@ Competition:
 
 ## 📁 Repository Structure
 - Data/: Cleaned data files and sources
-- Analysis and methodology/: Explanation of actions and solutions - Data model, DAX querys, visuals
-- PowerBI Dashboard/: Final PowerBI product and strategic solution
+- Analysis and methodology/: Explanation of actions and solutions - Data model, DAX querys, visuals used, end result.
 
 
 

@@ -8,7 +8,7 @@
 3. Data-analysis and visuals with PowerBI
 4. Results
 
-### 1. Information needs and business understanding
+## 1. Information needs and business understanding
 - Client wanted to find clear market gaps in Finnish counties to invest in. Market gap was defined as: Counties where competition is low and demand for private healthcare service is high. For a prosperous investement the future of the county is also to be looked in.
 - Private healthcare can be expensive, which means we must target counties with higher income. It is also known that a need for healthcare increases with ageing.
 - Big part of private healthcares business comes from occupational health contracts with other businesses.
@@ -22,8 +22,8 @@
   
   **4. Competition in- or around the counties**
 
-### 2. Data gathering, preprocessing and data model
-#### 2.1 Current state data
+## 2. Data gathering, preprocessing and data model
+### 2.1 Current state data
 - I used open demographic data from 2021-2023 Finnish counties (https://stat.fi/tup/avoin-data/paikkatietoaineistot/paavo.html) from tilastokeskus, as my analysis for counties current state. Tilastokeskus didn't have data for 2024 or 2025 yet.
 - This dataset had lots of variables on county level to do analysis based on the information needs. The relevant variables that I used:
 
@@ -37,7 +37,7 @@
   8: Workforce in healthcare and social services
   9: Year
 
-#### 2.2 Future state data
+### 2.2 Future state data
 - From tilastokeskus I used the prediction of population dataset for the year 2035, as the analysis for future state of counties.
 - The variables for this dataset:
 
@@ -56,7 +56,7 @@
 
 ### 3. Data-analyis with PowerBI
 
-#### 3.1 Splitting counties to groups
+### 3.1 Splitting counties to groups
 - My end goal was to find possible counties where my client should invest in. Since my dataset had 309 counties I decided to do a pruning approach, which would allow me to mark off irrelevant counties and do deeper analysis on the most potential counties.
 - For this I started my analysis by splitting counties to different groups with a DAX query:
 
@@ -74,7 +74,7 @@
 
   <img width="1200" height="213" alt="image" src="https://github.com/user-attachments/assets/30bf39f2-cc9d-414c-9ecb-4a4f058983c4" />
 
-#### 3.2 Producing a tooltip
+### 3.2 Producing a tooltip
 - Analysing the counties based on relevant metrics from just the tables proved to be irritating. I decided to make a tooltip that I could use on the visuals to help my compare the counties.
 - In this tooltip I included relevant metrics for comparison between counties:
 
@@ -82,7 +82,7 @@
 
 - This tooltip was then used during the whole analysis process in all different visuals I created.
 
-#### 3.3 Visualizing the groups
+### 3.3 Visualizing the groups
 - From my grouping measure **potentiaali** that I made in part 3.1, I created a visual that showcased each group in a scatterplot.
 - The scatterplot compared avg-age of counties on their median income.
 
@@ -94,7 +94,7 @@
 
 - With these tools I created, I looked into the counties on the scatterplot. I could then conclude that the counties in the group **High avg-age, low median income** weren't potential for investing in, and I pruned them out of the analysis.
 
-#### 3.4 Geographical analysis
+### 3.4 Geographical analysis
 - After previous pruning I was left with the 2 relevant groups of counties: **1: High avg-age, high median income** and **2: Low avg-age, high median income**.
 - I then build a visual that would allow me to inspect these groups on their geographical locations. This would allow me to see wether the counties were located near areas that would provide too much competition.
 - I used the **azure maps** visual for this:
@@ -103,7 +103,7 @@
 
 - From this visual I could zoom in the different parts of Finland and analyze the geographical locations effect on the potential of good investment. I found that all the counties in the group **2: Low avg-age, high median income** were located around the largest Finnish cities. The competition would be too big for these counties, thus not enabling a market gap. This led me to prune this group out of further analysis.
   
-#### 3.5 Future outlook of counties with high avg-age and high median income
+### 3.5 Future outlook of counties with high avg-age and high median income
 - I was left with the most potential group for having a county with market gap, **Group 1: High avg-age, high median income**. This group had 39 counties, for which I wanted to analyze their future outlook of population change from my future state dataset.
 - I used this DAX query to find out the percentage change in population predicted for 2035 when compared to 2023:
 
@@ -117,7 +117,7 @@
 - From the visual we can see that the predicted percentage changes aren't that big to completely make decisions based on them. But they do give an outlook on which way the counties future is going in sense of population change. This helped me to find 2 potential targets for investment.
 
 
-### 4. Results
+## 4. Results
 - Based on analysis in part 3 I identified 2 possible counties that formed a market gap that could be invested in. In the end I used all the different visuals and metrics I made in part 3, for analyzing all the possibilities. For the 2 targets chosen I build a visual to showcase their properties.
 
 ## 4.1 Naantali
